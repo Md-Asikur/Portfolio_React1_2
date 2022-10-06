@@ -1,0 +1,144 @@
+#contact{
+  /* background-color: gray; */
+  color: aliceblue;
+  /* margin-left: 30px; */
+ 
+ 
+}
+button.slick-arrow.slick-prev,button.slick-arrow.slick-next{
+    color:rgb(250, 248, 248);
+     background-color: crimson;
+     height: 30px;
+     width: 30px;
+     border-radius: 50%;
+
+}
+
+.slick-slider.slick-initialized{
+    padding: 40px;
+    
+}
+#im{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+#ims{
+    height: 200px;
+    width:270px;
+   
+}
+@media (max-width:577px){
+    button.slick-arrow.slick-next{
+        margin-right: 30px;
+    }
+     button.slick-arrow.slick-prev{
+        margin-left: 30px;
+    }
+}
+#counter{
+    background-image:linear-gradient(36deg, rgba(6,120,121,1) 0%, rgba(17,12,93,1) 87%);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+#counter h1,h2{
+    text-align: center;
+}
+@media(max-width:768px){
+    #counter{
+    background-image:linear-gradient(36deg, rgba(6,120,121,1) 0%, rgba(17,12,93,1) 87%);
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+}
+#counters{
+    background-image:linear-gradient(36deg, rgba(2,28,28,1) 0%, rgba(3,31,64,1) 87%);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+   
+}
+#counters p{
+   margin-left: 80px;
+  
+}
+input{
+    height: 40px;
+    border: none;
+    outline: none;
+   display: block;
+   margin: auto;
+    
+}
+
+::placeholder{
+    font-size: 0.7em;
+    color: grey;
+    text-align: left;
+}
+@media(max-width:768px){
+    #counters{
+    background-image:linear-gradient(36deg, rgba(6,120,121,1) 0%, rgba(17,12,93,1) 87%);
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+#counters h1,p,input,h3{
+margin-top: 20px;
+}
+}
+#link-f a svg{
+color: aliceblue;
+font-size: 1.5em;
+margin-right: 10px;
+transition: 0.4s ease;
+}
+#link-f a svg:hover{
+    color: crimson;
+    padding-left: 20px;
+}
+/* Register section */
+.sp{
+    color:rgb(255, 0, 0);
+    display:block;
+}
+label{
+    display:block;
+    color: aliceblue;
+   
+}
+#reg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+    width: 400px;
+    
+}
+#reg-red{
+    color: red;
+}
+@media(max-width:1120px){
+    #link-f {
+        margin-left: 80px;
+    }
+}

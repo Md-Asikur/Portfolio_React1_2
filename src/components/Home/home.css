@@ -1,0 +1,74 @@
+.r-3{
+    background-image: linear-gradient(36deg, rgba(11,106,76,0.5) 0%, rgba(50,12,93,0.7) 87%),url("../images/6.jpg");
+    background-size: cover;
+    background-position: center;
+   
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+   
+}
+.h1{
+    text-align: center;
+    font-size: 7em;
+    color: transparent;
+    -webkit-text-stroke: 2px slateblue;
+    opacity: 0.3;
+    margin: 30px;
+}
+@media(max-width:768px){
+    .h1{
+         font-size: 4em;
+    }
+}
+div.card{
+    position: relative;
+   
+}
+div.card-body{
+    z-index: 99999;
+}
+div.card-title.h5{
+    z-index: 9999;
+   color: rgb(13, 116, 206);
+}
+p.card-text{
+    z-index: 9999;
+    color: rgb(9, 108, 194);
+}
+div.card::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    transition: 0.4s ease;
+}
+div.card:hover::after{
+    background-color: rgba(3, 2, 3, 0.192);
+    height: 100%;
+    z-index: 0;
+}
+button{
+    position: relative;
+ 
+}
+button::after{
+     content: "";
+    position: absolute;
+   top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: 0.4s ease;
+      
+}
+button:hover::after{
+    background-color: rgba(209, 11, 209, 0.473);
+    width: 100%;
+    opacity: 0.2;
+}

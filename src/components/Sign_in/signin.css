@@ -1,0 +1,28 @@
+#log{
+background: linear-gradient(36deg, rgba(10,16,98,1) 15%, rgba(116,8,161,1) 98%);
+   border-radius: 10px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 400px;
+    display: block;
+    margin: auto;
+  
+}
+@media(max-width:768px){
+    #log{
+        height: auto;
+        background-color: lightcoral;
+    }
+}
+
+#log input,label{
+    margin-left: 50px;
+}
+.sp{
+    color: red;
+    display: block;
+    margin: auto;
+    margin-left: 47px;
+}

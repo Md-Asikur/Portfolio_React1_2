@@ -1,0 +1,47 @@
+.sp{
+    color:rgb(255, 0, 0);
+    display:block;
+}
+label{
+    display:block;
+    color: aliceblue;
+   
+}
+#reg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+    width: 400px;
+    
+}
+#reg-red{
+    color: red;
+}
+@media(max-width:1120px){
+    #link-f {
+        margin-left: 80px;
+    }
+}
+#reg{
+   background: linear-gradient(36deg, rgba(10,10,98,1) 15%, rgba(8,78,161,1) 98%);
+   border-radius: 10px;
+   display: block;
+   margin: auto;
+}
+@media(max-width:768px){
+    #reg{
+      height: 850px;
+        background-color: lightcoral;
+    }
+}
+#reg-inp{
+    border-radius: 30px;
+   
+}
+#reg label,input{
+    margin-left: 50px;
+}
+#reg-red{
+    margin-left: 50px;
+}
