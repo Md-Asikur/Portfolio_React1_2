@@ -193,6 +193,7 @@ const Services = (props) => {
           <div className="col-sm-12 col-md-4 col-lg-3">
             <Trigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
               <div className="count">
+              
                 <h1>
                   {counter && <CountUp start={0} end={2400} duration={3} delay={0} />}
                 </h1>

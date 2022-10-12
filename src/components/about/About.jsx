@@ -6,15 +6,19 @@ import Card from "react-bootstrap/Card";
 import Aos from "aos";
 import "../../../node_modules/aos/dist/aos.css";
 import Footer from '../footer/Footer';
+import Parallax from '../parallax spring/Parallax';
+import Parall2 from '../Parallax2/Parallax2';
+
+
 const About = (props) => {
    useEffect(() => {
      Aos.init({ duration: 3000 });
    }, []);
+
   return (
     <>
       <div id="about" className="row">
-        <h1 className="h1">About Me</h1>
-
+       
         <div className="col-sm-12 col-md-6 col-lg-5  mt-5" data-aos="zoom-in-right">
           {/* <img
           src={man2}
@@ -59,7 +63,10 @@ const About = (props) => {
           <button className="btn btn-outline-primary">view full details</button>
         </div>
       </div>
-      <Footer />
+      <Parallax />
+      {/* <Parall2 />
+      <Footer /> */}
+      
     </>
   );
 }
